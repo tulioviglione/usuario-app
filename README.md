@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 
+## Instalação bibliotecas
+Os comandos de exemplo abaixo realiza a instalação da versão mais recente de cada biblioteca.
+
 ### Instalação Jquery
 Executar comando npm install jquery --save 
 Este comando atualiza automaticamente o package.json
@@ -12,6 +15,18 @@ Atualizar o arquivo angular.json
   "./node_modules/jquery/dist/jquery.min.js",
   "./node_modules/bootstrap/dist/js/bootstrap.min.js"    
 ]
+```
+
+### Instalação bootstrap
+Executar comando npm install bootstrap --save 
+Este comando atualiza automaticamente o package.json
+
+Atualizar o arquivo angular.json
+```
+"styles": [
+  "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.css"
+],
 ```
 
 ### Instalação Font Awesome
