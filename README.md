@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 
+### Instalação Jquery
+Executar comando npm install jquery --save 
+Este comando atualiza automaticamente o package.json
+
+Atualizar o arquivo angular.json
+```
+"scripts": [
+  "./node_modules/jquery/dist/jquery.min.js",
+  "./node_modules/bootstrap/dist/js/bootstrap.min.js"    
+]
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
