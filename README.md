@@ -14,6 +14,19 @@ Atualizar o arquivo angular.json
 ]
 ```
 
+### Instalação Font Awesome
+Executar comando npm install font-awesome --save 
+Este comando atualiza automaticamente o package.json
+
+Atualizar o arquivo angular.json
+```
+"styles": [
+  "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "./node_modules/font-awesome/css/font-awesome.min.css",
+  "src/styles.css"
+],
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
