@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { RouterModule } from '@angular/router';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
-import { RequestInteceptor } from './auth/request.inteceptor';
+import { RequestInterceptor } from './auth/request.interceptor';
 
 @NgModule({
     declarations: [HeaderComponent],
@@ -16,9 +16,9 @@ import { RequestInteceptor } from './auth/request.inteceptor';
     providers: [
         {
             provide: HTTP_INTERCEPTORS,
-            useClass: RequestInteceptor,
+            useClass: RequestInterceptor,
             multi: true
         }
     ]
 })
-export class CoreModule{ }
+export class CoreModule {}
