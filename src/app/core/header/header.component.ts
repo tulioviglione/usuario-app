@@ -7,9 +7,10 @@ import { User } from '../user/user';
 
 @Component({
     selector: 'app-header',
-    templateUrl: './header.component.html'
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent{
+export class HeaderComponent {
 
     user$: Observable<User>;
     user: User;
